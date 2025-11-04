@@ -4,4 +4,4 @@ on: [push, workflow_dispatch]
 
 jobs:
   call-reusable-workflow:
-    uses: thavaahariharangit/.github-private/.github/workflows/dependency-submission-resuable-workflow.yml@bc694a582317f78e8a5669ace8ae3846cc6c2824
+    uses: thavaahariharangit/.github-private/.github/workflows/dependency-submission-resuable-workflow.yml@5f0fd514b221e26c5528f705a0cc31a3f2fb920f
