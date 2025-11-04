@@ -1,0 +1,7 @@
+name: github-actions-consumer
+
+on: [push, workflow_dispatch]
+
+jobs:
+  call-reusable-workflow:
+    uses: thavaahariharangit/.github-private/.github/workflows/dependency-submission-resuable-workflow.yml@bc694a582317f78e8a5669ace8ae3846cc6c2824
