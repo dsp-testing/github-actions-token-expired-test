@@ -3,5 +3,8 @@ name: github-actions-consumer
 on: [push, workflow_dispatch]
 
 jobs:
+  no-token-required-workflow:
+    uses: dsp-testing/github-actions-consumer-public/.github/workflows/test.yml@v0.0.1
+
   token-required-workflow:
-    uses: dsp-testing/github-actions-consumer-public/.github/workflows/test.yml@v0.0.2
+    uses: dsp-testing/github-actions-consumer-private/.github/workflows/test.yml@v0.0.1
